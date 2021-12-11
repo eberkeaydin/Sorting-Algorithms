@@ -37,3 +37,7 @@ arr = [22, 27, 16, 2, 18, 6]
 insertionSort(arr)
 for i in range(len(arr)):
     print("% d" % arr[i])
+
+# Time complexities for Insertion Sort :
+# Best : O(n) | Average : Θ(n^2) | Worst : Θ(n^2) For example number of 18 which is in index of 4 have complexity value : Θ(n^2)
+# Another array : [7,3,5,8,2,9,4,15,6] --> [3,7,5,8,2,9,4,15,6] --> [3,5,7,8,2,9,4,15,6] --> [2,3,5,7,8,9,4,15,6] --> so on.
